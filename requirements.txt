@@ -5,3 +5,6 @@ langchain-openai
 langgraph
 langchain-community
 tavily-python
+google-genai
+streamlit
+pandas
