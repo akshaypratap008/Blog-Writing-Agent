@@ -425,7 +425,7 @@ if out:
     with tab_images:
         st.subheader("Images")
         specs = out.get("image_specs") or []
-        images_dir = Path("images")
+        images_dir = Path("final_blogs/images")
 
         if not specs and not images_dir.exists():
             st.info("No images generated for this blog.")
